@@ -9,7 +9,7 @@ Please make sure to subscribe to my channel: https://youtube.com/c/TopNotchProgr
 4. Open tags.txt and put your tags list and comments.txt to put your comments list.
 5. Run the bot using this command ```python run.py``` 
 
-This bot is builded in the youtube series of *TopNotch Programmer* so if you want to learn more about just go to the channel and follow videos.
+This bot is built in the youtube series of *TopNotch Programmer* so if you want to learn more about just go to the channel and follow videos.
 
 ## Donate Here: PayPal --> https://paypal.me/redidev.
 
