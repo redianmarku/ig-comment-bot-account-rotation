@@ -111,7 +111,14 @@ def main(data):
         comment = random_comment()
         bot.get(url)
         bot.implicitly_wait(1)
-        time.sleep(5)
+        bot.execute_script("window.scrollTo(0, window.scrollY + 300)")
+
+        time.sleep(random.randint(5, 10))
+
+        # Like feature
+        # bot.find_element_by_xpath(
+        #     '/html/body/div[1]/section/main/div/div/article/div[3]/section[1]/span[1]/button').click()
+        # time.sleep(2)
 
         bot.find_element_by_xpath(
             '//*[@id="react-root"]/section/main/div/div/article/div[3]/section[1]/span[2]/button').click()
