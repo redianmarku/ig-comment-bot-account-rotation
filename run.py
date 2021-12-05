@@ -121,7 +121,7 @@ def main(data):
         # time.sleep(2)
 
         bot.find_element_by_xpath(
-            '//*[@id="react-root"]/section/main/div/div/article/div[3]/section[1]/span[2]/button').click()
+            '//*[@id="react-root"]/section/main/div/div/article/div/div[3]/div/div/section[1]/span[2]/button').click()
 
         if doesnt_exist(bot, '//*[@id="react-root"]/section/main/section/div'):
             print('Skiped - comments disabled')
